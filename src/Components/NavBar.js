@@ -53,7 +53,7 @@ setActiveLink(value);
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navebar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>projects</Nav.Link>       
           </Nav>
           <span className='navbar-text'>
-            <div className="social -icon">
+            <div className="social-icon">
                 <a href="#"><img src={navIcon1} alt="navIcon1"/></a>
                 <a href="#"><img src={navIcon2} alt="navIcon2"/></a>
                 <a href="#"><img src={navIcon3} alt="navIcon3"/></a>
